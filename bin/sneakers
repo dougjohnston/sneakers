@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+SNEAKERS_ROOT = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(SNEAKERS_ROOT)
+require 'sneakers'
+Sneakers.new
+exit 0
