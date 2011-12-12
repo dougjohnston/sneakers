@@ -1,9 +1,11 @@
 class Sneakers
-
   def initialize
     puts 'Enter a phrase to sneakerize:'
     @phrase = gets.chomp
+    @control = Array.new(@phrase.size, 0)
+  end
 
+  def display
     sneakerize
   end
 

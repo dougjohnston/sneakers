@@ -2,5 +2,6 @@
 SNEAKERS_ROOT = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(SNEAKERS_ROOT)
 require 'sneakers'
-Sneakers.new
+sneakers = Sneakers.new
+sneakers.display
 exit 0
